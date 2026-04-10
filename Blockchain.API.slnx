@@ -2,5 +2,8 @@
   <Project Path="Blockchain.API/Blockchain.API.csproj" />
   <Project Path="Blockchain.Application/Blockchain.Application.csproj" />
   <Project Path="Blockchain.Domain/Blockchain.Domain.csproj" />
+  <Project Path="Blockchain.FunctionalTests/Blockchain.FunctionalTests.csproj" Id="bd0d0e15-2561-43b9-ae99-58ed8201bfd5" />
   <Project Path="Blockchain.Infrastructure/Blockchain.Infrastructure.csproj" />
+  <Project Path="Blockchain.IntegrationTests/Blockchain.IntegrationTests.csproj" Id="a73d3aff-4723-4b2c-b0c7-49255df6c4c3" />
+  <Project Path="Blockchain.UnitTest/Blockchain.UnitTest.csproj" Id="c93717f2-94ab-4667-a2d1-44e2ce7e21bd" />
 </Solution>
