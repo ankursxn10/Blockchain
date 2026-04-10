@@ -1,6 +1,7 @@
 ﻿using Blockchain.Domain.Entities;
 using Blockchain.Domain.Interfaces;
 using Blockchain.Infrastructure.Persistence;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -19,6 +20,7 @@ namespace Blockchain.Infrastructure.Repositories
         public async Task AddAsync(BlockchainData data)
         {
             await _context.BlockchainData.AddAsync(data);
+            //await _context.SaveChangesAsync();
         }
 
         public async Task<List<BlockchainData>> GetByTypeAsync(string type)
