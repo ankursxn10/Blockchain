@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="Blockchain.API/Blockchain.API.csproj" />
+  <Project Path="Blockchain.Application/Blockchain.Application.csproj" />
+  <Project Path="Blockchain.Domain/Blockchain.Domain.csproj" />
+  <Project Path="Blockchain.Infrastructure/Blockchain.Infrastructure.csproj" />
+</Solution>
