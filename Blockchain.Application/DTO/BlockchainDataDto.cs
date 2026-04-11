@@ -1,13 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace Blockchain.Application.DTO
+﻿namespace Blockchain.Application.DTO
 {
     public class BlockchainDataDto
     {
-        public string BlockchainType { get; set; }
-        public string JsonData { get; set; }
+        public int Id { get; set; }
+        public string BlockchainType { get; set; } = string.Empty;
+        public string JsonData { get; set; } = string.Empty;
         public DateTime CreatedAt { get; set; }
     }
 }
